@@ -60,34 +60,34 @@ Tests are written using Mocha and Chai syntax and are located in the \`cypress/i
 
 Example test (\`example.spec.js\`):
 
-\`\`\`javascript
+```javascript
 describe('Example Test Suite', () => {
   it('Visits the homepage', () => {
     cy.visit('/');
     cy.contains('Welcome to Cypress Automation').should('be.visible');
   });
 });
-\`\`\`
+```
 
 ## Running Tests
 
 To run tests in headless mode:
 
-\`\`\`bash
+```bash
 npm run cy:run
-\`\`\`
+```
 
 To open Cypress Test Runner:
 
-\`\`\`bash
+```bash
 npm run cy:open
-\`\`\`
+```
 
 ## CI/CD Integration
 
 Integrate Cypress tests into your CI/CD pipeline for automated testing on every push. Example configuration for GitHub Actions:
 
-\`\`\`yaml
+```yaml
 name: CI
 
 on:
@@ -108,7 +108,7 @@ jobs:
 
       - name: Run Cypress tests
         run: npm run cy:run -- --headless --browser chrome
-\`\`\`
+```
 
 ## Contributing
 
