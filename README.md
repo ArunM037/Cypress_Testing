@@ -29,22 +29,22 @@ Before running the tests, ensure you have the following installed:
 
 1. Clone this repository:
 
-   \`\`\`bash
+   ```bash
    git clone "https://github.com/ArunM037/Cypress_Testing.git"
    cd Cypress_Testing
-   \`\`\`
+   ```
 
 2. Install dependencies:
 
-   \`\`\`bash
+   ```bash
    npm install
-   \`\`\`
+    ```
 
    or
 
-   \`\`\`bash
+   ```bash
    yarn install
-   \`\`\`
+    ```
 
 ## Folder Structure
 
