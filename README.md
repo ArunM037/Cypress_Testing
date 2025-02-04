@@ -1,5 +1,3 @@
-#!/bin/bash
-
 # Define the README file name
 README_FILE="README.md"
 
