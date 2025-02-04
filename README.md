@@ -1,11 +1,3 @@
-# Define the README file name
-README_FILE="README.md"
-
-# Define repository URL
-REPO_URL="https://github.com/ArunM037/Cypress_Testing.git"
-
-# Create and write to the README.md file
-cat > $README_FILE <<EOL
 # Cypress Automation Project
 
 This repository contains automated tests for Cypress, utilizing Cypress for end-to-end testing. Below, you'll find instructions on setup, usage, and further customization.
@@ -38,7 +30,7 @@ Before running the tests, ensure you have the following installed:
 1. Clone this repository:
 
    \`\`\`bash
-   git clone $REPO_URL
+   git clone "https://github.com/ArunM037/Cypress_Testing.git"
    cd Cypress_Testing
    \`\`\`
 
